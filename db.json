@@ -30,3 +30,114 @@
     }
   ]
 }
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Team Strategy Meeting",
+      "location": "Zoom",
+      "datetime": "2025-07-25T15:00:00Z",
+      "notes": "Discuss Q3 roadmap and OKRs",
+      "createdBy": "host@example.com",
+      "invitees": ["jane@example.com", "john@example.com", "mike@example.com", "sarah@example.com"]
+    },
+    {
+      "id": 2,
+      "title": "Product Launch Webinar",
+      "location": "Conference Room A",
+      "datetime": "2025-08-05T13:30:00Z",
+      "notes": "Demo new features to stakeholders",
+      "createdBy": "product@example.com",
+      "invitees": ["client1@example.com", "client2@example.com", "devteam@example.com"]
+    },
+    {
+      "id": 3,
+      "title": "Quarterly Review",
+      "location": "HQ Main Auditorium",
+      "datetime": "2025-09-15T09:00:00Z",
+      "notes": "All-hands meeting with leadership",
+      "createdBy": "ceo@example.com",
+      "invitees": ["allstaff@example.com"]
+    },
+    {
+      "id": 4,
+      "title": "UX Workshop",
+      "location": "Design Studio",
+      "datetime": "2025-07-30T11:00:00Z",
+      "notes": "Wireframing session for new mobile app",
+      "createdBy": "uxlead@example.com",
+      "invitees": ["designer1@example.com", "designer2@example.com", "pm@example.com"]
+    }
+  ],
+  "rsvps": [
+    {
+      "id": 1,
+      "eventId": 1,
+      "email": "jane@example.com",
+      "status": "yes",
+      "emoji": "👍",
+      "timestamp": "2025-07-22T08:30:00Z",
+      "note": "Looking forward to it!"
+    },
+    {
+      "id": 2,
+      "eventId": 1,
+      "email": "john@example.com",
+      "status": "maybe",
+      "emoji": "🤷",
+      "timestamp": "2025-07-22T09:00:00Z"
+    },
+    {
+      "id": 3,
+      "eventId": 1,
+      "email": "mike@example.com",
+      "status": "no",
+      "emoji": "😞",
+      "timestamp": "2025-07-22T10:15:00Z",
+      "note": "Out of office that day"
+    },
+    {
+      "id": 4,
+      "eventId": 2,
+      "email": "client1@example.com",
+      "status": "yes",
+      "emoji": "🎉",
+      "timestamp": "2025-08-01T14:20:00Z"
+    },
+    {
+      "id": 5,
+      "eventId": 2,
+      "email": "devteam@example.com",
+      "status": "yes",
+      "emoji": "💻",
+      "timestamp": "2025-08-02T09:45:00Z",
+      "note": "Will demo the new API"
+    },
+    {
+      "id": 6,
+      "eventId": 3,
+      "email": "employee1@example.com",
+      "status": "yes",
+      "emoji": "👔",
+      "timestamp": "2025-09-10T11:30:00Z"
+    },
+    {
+      "id": 7,
+      "eventId": 4,
+      "email": "designer1@example.com",
+      "status": "yes",
+      "emoji": "✏️",
+      "timestamp": "2025-07-25T16:20:00Z",
+      "note": "Bringing my sketchbook"
+    },
+    {
+      "id": 8,
+      "eventId": 4,
+      "email": "pm@example.com",
+      "status": "maybe",
+      "emoji": "📅",
+      "timestamp": "2025-07-26T10:00:00Z",
+      "note": "Might be in another meeting"
+    }
+  ]
+}
